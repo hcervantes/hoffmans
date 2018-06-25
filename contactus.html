@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="favicon icon" href="favicon.ico">
+
+		<title>Hoffman's Landscaping</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="lib/bootstrap-3.1.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Just for debugging purposes. Don't actually copy this line! -->
+		<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		<!-- Custom styles for this template -->
+		<link href="css/main.css" rel="stylesheet">
+
+	</head>
+	<!-- NAVBAR
+	================================================== -->
+	<body>
+
+		<div class="container main-container">
+			<div class="navbar-wrapper">
+				<div class="container">
+
+					<div class="navbar navbar-inverse navbar-fixed-d" role="navigation">
+						<div class="container">
+							<div class="navbar-header active" >
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home white>"></span></a>
+							</div>
+							<div class="navbar-collapse collapse">
+								<ul class="nav navbar-nav">
+									<li >
+										<a href="landscape.html">Landscape</a>
+									</li>
+									<li>
+										<a href="hardscape.html">Hardscape Design</a>
+									</li>
+									<li>
+										<a href="lawncare.html">Lawncare</a>
+									</li>
+									<li>
+										<a href="snow.html">Snow Removal</a>
+									</li>
+									<li>
+										<a href="other.html">Other services</a>
+									</li>
+									<li>
+										<a href="aboutus.html">About Us</a>
+									</li>
+
+									<!-- <li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Login <b class="caret"></b></a>
+									<ul class="dropdown-menu">
+									<li><a href="#">Customer</a></li>
+									<li><a href="#">Employee</a></li>
+									<li><a href="#">Create an account</a></li>
+									</ul>
+									</li> -->
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-7 panel-primary">
+						
+					<form   role="form" action="php/mailer.php" method="post">
+					<input type="hidden" value="hector@hcervantes.com" name="toMail" />
+					<div class="row">
+						<div class="span3">
+							<table>
+								<tr>
+									<td>
+									<label>First Name</label>
+									</td>
+								
+								<td>
+									<input type="text" name="firstName" class="form-control" placeholder="Your First Name">
+								</td>
+								<tr>
+									<td><label>Last Name</label></td>
+									<td>
+									<input type="text" name="lastName" class="form-control" placeholder="Your Last Name">
+									</td>
+								</tr>
+								<tr>
+									<td><label>Email Address</label></td>
+									<td>
+									<div class="input-prepend">
+										<span class="add-on"><i class="icon-envelope"></i></span>
+										<input name="emailAddress" type="text" id="inputIcon" class="form-control" style="width:233px" placeholder="Your email address">
+									</div></td>
+								</tr>
+								<tr>
+									<td><label>Subject</label></td>
+									<td>
+										<select id="subject" name="subject" class="form-control">
+											<option value="na" selected="">Choose One:</option>
+											<option value="service">General Inquiry</option>
+											<option value="suggestions">Estimate</option>
+											<option value="product">Other</option>
+										</select> </td>
+	
+								</tr>
+								<tr>
+									<td>
+									<label>Message</label>
+										</td>
+										
+									<td colspan="2">
+										<textarea name="message" id="message" class="input-xlarge form-control" rows="10"></textarea>
+									</td>
+	
+								</tr>
+							</table>
+	
+						</div>
+						<button type="submit" class="btn btn-primary pull-right">
+						Send
+					</button>
+					</div>
+					
+				</form>
+				</div>
+				
+				<div class="col-lg-5 ">
+					<div class="panel panel-default">
+						<div class="panel-heading">You can also call or email us.</div>
+						<div class="panel-body">
+						    
+							<p>
+								Phone: 937-470-3719
+							</p>
+							<p>
+								Email: hoffmanslandscaping@gmail.com
+							</p>
+						</div>
+					</div>
+					
+					
+				</div>
+			</div>
+			
+			<div class="footer">
+				<p>
+					&copy; Hoffman's 2014
+				</p>
+			</div>
+		</div>
+		<!-- /Container -->
+
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="js/jquery/jquery-1.11.1.min.js"></script>
+		<script src="lib/bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>
+		<script src="lib/bootstrap-3.1.1-dist/js/docs.min.js"></script>
+	</body>
+
+</html>
+

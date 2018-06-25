@@ -1,0 +1,15 @@
+[03-Oct-2014 17:43:42 America/Denver] PHP Notice:  Undefined index: toMail in /home2/hoffman4/public_html/php/mailer.php on line 6
+[03-Oct-2014 17:43:42 America/Denver] PHP Notice:  Undefined index: firstName in /home2/hoffman4/public_html/php/mailer.php on line 8
+[03-Oct-2014 17:43:42 America/Denver] PHP Notice:  Undefined index: lastName in /home2/hoffman4/public_html/php/mailer.php on line 9
+[03-Oct-2014 17:43:42 America/Denver] PHP Notice:  Undefined index: emailAddress in /home2/hoffman4/public_html/php/mailer.php on line 10
+[03-Oct-2014 17:43:42 America/Denver] PHP Notice:  Undefined index: message in /home2/hoffman4/public_html/php/mailer.php on line 11
+[14-Oct-2014 14:27:47 America/Denver] PHP Notice:  Undefined index: toMail in /home2/hoffman4/public_html/php/mailer.php on line 6
+[14-Oct-2014 14:27:47 America/Denver] PHP Notice:  Undefined index: firstName in /home2/hoffman4/public_html/php/mailer.php on line 8
+[14-Oct-2014 14:27:47 America/Denver] PHP Notice:  Undefined index: lastName in /home2/hoffman4/public_html/php/mailer.php on line 9
+[14-Oct-2014 14:27:47 America/Denver] PHP Notice:  Undefined index: emailAddress in /home2/hoffman4/public_html/php/mailer.php on line 10
+[14-Oct-2014 14:27:47 America/Denver] PHP Notice:  Undefined index: message in /home2/hoffman4/public_html/php/mailer.php on line 11
+[20-Oct-2014 21:47:34 America/Denver] PHP Notice:  Undefined index: toMail in /home2/hoffman4/public_html/php/mailer.php on line 6
+[20-Oct-2014 21:47:34 America/Denver] PHP Notice:  Undefined index: firstName in /home2/hoffman4/public_html/php/mailer.php on line 8
+[20-Oct-2014 21:47:34 America/Denver] PHP Notice:  Undefined index: lastName in /home2/hoffman4/public_html/php/mailer.php on line 9
+[20-Oct-2014 21:47:34 America/Denver] PHP Notice:  Undefined index: emailAddress in /home2/hoffman4/public_html/php/mailer.php on line 10
+[20-Oct-2014 21:47:34 America/Denver] PHP Notice:  Undefined index: message in /home2/hoffman4/public_html/php/mailer.php on line 11

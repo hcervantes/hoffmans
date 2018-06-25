@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="favicon icon" href="favicon.ico">
+
+		<title>Hoffman's Landscaping</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="lib/bootstrap-3.1.1-dist/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Blueimp Gallery -->
+		<!-- <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"> -->
+		<link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+		<link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+		<link rel="stylesheet" href="css/social-buttons.css">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+		<!-- Just for debugging purposes. Don't actually copy this line! -->
+		<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		<!-- Custom styles for this template -->
+		<link href="css/main.css" rel="stylesheet">
+
+	</head>
+	<!-- NAVBAR
+	================================================== -->
+	<body>
+
+		<div class="container main-container">
+			<div class="navbar-wrapper">
+				<div class="container">
+
+					<div class="navbar navbar-inverse navbar-fixed-d" role="navigation">
+						<div class="container">
+							<div class="navbar-header active" >
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home white>"></span></a>
+							</div>
+							<div class="navbar-collapse collapse">
+								<ul class="nav navbar-nav">
+									<li  class="active">
+										<a href="landscape.html">Landscape</a>
+									</li>
+									<li>
+										<a href="hardscape.html">Hardscape Design</a>
+									</li>
+									<li>
+										<a href="lawncare.html" >Lawncare</a>
+									</li>
+									<li>
+										<a href="snow.html">Snow Removal</a>
+									</li>
+									<li>
+										<a href="other.html">Other services</a>
+									</li>
+									<li>
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
+										<ul class="dropdown-menu" role="menu">
+								            <li><a href="aboutus.html">Company Profile</a></li>
+								            <li><a href="testimonials.html">Testimonials</a></li>
+							            </ul>
+									</li>
+
+									<!-- <li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Login <b class="caret"></b></a>
+									<ul class="dropdown-menu">
+									<li><a href="#">Customer</a></li>
+									<li><a href="#">Employee</a></li>
+									<li><a href="#">Create an account</a></li>
+									</ul>
+									</li> -->
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Top image holder -->
+			<div class="container">
+				<div class="container">
+					<div class="col-md-12 col-sm-2">
+						<img src="img/landscape.jpg" alt="..." class="img-rounded img-responsive visible-lg visible-md">
+					</div>
+				</div>
+			</div>
+
+			<!-- content holder -->
+			<div class="container-fluid">
+
+				<div class="col-md-12 main-container">
+					<div class="col-md-8">
+						<h2 >Hoffman's Landscaping. <span class="text-muted">Commercial and Residential.</span></h2>
+						<p>
+							Our certified professional landscapers are fully qualified to handle any landscaping  service that you require. We promote an honest, reliable and positive work environment in order to best serve our client's needs. When you trust your landscaping, gardening or lawn care project to Hoffmans Landscaping, you can be sure that you are receiving the absolute best customer service, quality and turn around time possible.
+						</p>
+						<p>
+							View our Landscape Gallery to get an idea for your project.
+						</p>
+
+					</div>
+
+					<div class="col-md-4">
+						<p>
+							<a class="btn btn-default" href="#" role="button" onclick="galleryInit(); return false;">Landscape gallery</a>
+						</p>
+						<p>
+							<a class="btn btn-default" href="contactus.html" role="button">Contact us&raquo;</a>
+						</p>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="footer">
+				<div class="col-md-6 ">
+					<p>
+						&copy; Hoffman's 2014
+					</p>
+					<p>Centerville, OH, USA</p>
+				</div>
+				<div class="col-md-6 pull-right" style="text-align: right">
+					<a class="btn btn-facebook" href="https://www.facebook.com/hoffmanslandscaping"><i class="fa fa-facebook"></i></a>
+					
+					<a class="btn btn-linkedin" href="https://www.facebook.com/hoffmanslandscaping"><i class="fa fa-linkedin"></i></a>
+					
+					<!-- <a class="btn btn-linkedin" href="https://www.facebook.com/hoffmanslandscaping"><i class="fa fa-linkedin"></i></a> -->
+					
+					<a class="btn btn-google-plus" href="https://www.facebook.com/hoffmanslandscaping"><i class="fa fa-google-plus"></i></a>
+				</div>
+			</div>
+		</div>
+		<!-- /Container -->
+
+		<!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+		<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+		<div id="blueimp-gallery" class="blueimp-gallery">
+			<!-- The container for the modal slides -->
+			<div class="slides"></div>
+			<!-- Controls for the borderless lightbox -->
+			<h3 class="title"></h3>
+			<a class="prev">‹</a>
+			<a class="next">›</a>
+			<a class="close">×</a>
+			<a class="play-pause"></a>
+			<ol class="indicator"></ol>
+			<!-- The modal dialog, which will be used to wrap the lightbox content -->
+			<div class="modal fade">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" aria-hidden="true">
+								&times;
+							</button>
+							<h4 class="modal-title"></h4>
+						</div>
+						<div class="modal-body next"></div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default pull-left prev">
+								<i class="glyphicon glyphicon-chevron-left"></i>
+								Previous
+							</button>
+							<button type="button" class="btn btn-primary next">
+								Next
+								<i class="glyphicon glyphicon-chevron-right"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="js/jquery/jquery-1.11.1.min.js"></script>
+		<script src="lib/bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>
+		<script src="lib/bootstrap-3.1.1-dist/js/docs.min.js"></script>
+
+		<script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+		<script src="js/bootstrap-image-gallery.min.js"></script>
+
+		<script>
+			function galleryInit() {
+					var images = [];
+				// Push images into gallery array
+				var totalImagesInFolder = 24;
+				var folderName = 'img/landscaping/';
+				for (i = 1; i <= totalImagesInFolder; i++) { 
+				    images.push(folderName + i + '.jpg');
+				}
+				var gallery = blueimp.Gallery(images);
+			}
+
+			// document.getElementById('links').onclick = function(event) {
+			// event = event || window.event;
+			// var target = event.target || event.srcElement, link = target.src ? target.parentNode : target, options = {
+			// index : link,
+			// event : event
+			// }, links = this.getElementsByTagName('a');
+			// blueimp.Gallery(links, options);
+			// };
+		</script>
+	</body>
+
+</html>
